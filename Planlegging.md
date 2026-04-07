@@ -19,6 +19,8 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan re
   
 ## Sjekkliste ekstrafunksjonalitet:
 - Sortering bok sjanger
+- Mulighet for å legge til flere sjangre på en bok
+- Mulighet for å legge til flere forfattere på en bok
 
 ## Fremgangsmåte:
 1. Jeg skal begynne ved å planlegge datamodellen, layout på app, og hvordan sikkerheten skal virke
