@@ -8,7 +8,7 @@ I dag har jeg planlagt datamodell og app layout. Jeg har skrevet plandokumentet 
 </details>
 <details open>
 <summary>Torsdag <sub>09/04</sub></summary>
-
+I dag har jeg jobbet videre på layout of velgte for å gå for både cards visning og en grid visning så brukte litt tid på å perfektere cardsene og hvordan funksjonaliteten skal ligge, debugget veldig lenge problemer med oppretting av nye bøker der gikk det en del tid på men til slutt så fant jeg en løsning som fungerte. Hoved fokuset mitt i dag har vært Books Overview tabben dersom det er den som skal ha masse hoved funksjonalitet sånn som Add new book og VIew more og låne funksjonaliteten. Fokuset har vært veldig mye på layout og design i dag så i morgen går det til og få all hovedfunksjonalitet på plass.
 </details>
 <details open>
 <summary>Fredag <sub>10/04</sub></summary>
