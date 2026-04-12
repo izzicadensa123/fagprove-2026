@@ -15,14 +15,14 @@ I dag har jeg jobbet videre på layout of velgte for å gå for både cards visn
 I dag har jeg jobbet videre med layouten og fått på plass lånong av bøker og books overview siden, påbegynte levering tilbake siden. Fikk fikset et par av filterne som skulle på plass. Var litt issues med cards for bøkene men fikk løst det til slutt. Påbegynte levering tilbake å fikk testet det og funket 50% så må se videre på det på mandag. Endret logikken til å låne en per bok til å sette qty på antall bøker slik at man har så så mange bøker inne og kan låne flere av samme bok basert på hvor mye som er tilgjengelig. La også til sperre på max bøker man kan ha utlånt denne sjekken ligger per nå i prosedyren og kan være lurt å legge til i trigger som en ekstra forsikring men må vurderes om det er nødvendig.
 </details>
 <details open>
-<summary>Tirsdag <sub>13/04</sub></summary>
+<summary>Mandag <sub>13/04</sub></summary>
 
 </details>
 <details open>
-<summary>Onsdag <sub>14/04</sub></summary>
+<summary>Tirsdag <sub>14/04</sub></summary>
 
 </details>
 <details open>
-<summary>Torsdag <sub>15/05</sub></summary>
+<summary>Onsdag <sub>15/05</sub></summary>
 
 </details>
