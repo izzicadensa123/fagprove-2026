@@ -16,7 +16,7 @@ I dag har jeg jobbet videre med layouten og fått på plass lånong av bøker og
 </details>
 <details open>
 <summary>Mandag <sub>13/04</sub></summary>
-
+Jobbet videre med appens kjernefunksjonalitet og endret på et par layout saker, tenkt eførst at jeg skulle bare legge til edit knapp i books overview men flyttet heller det ut til en egen tab hvor du skal få overdikt over alle bøkene i et register view med et detalj vindu som gjorde det litt mer oversiktlig. Droppet Employee dashboard og bare la det direkte inn i borrowed books overview, lagde jobb for og sende ut en påminnelse om når bøkene har 2 dager igjen av due daten i samme sleng som en purre knapp som sender en melding til alle bøker som er overdue generelt. Endret på layout på kortene en gang til men ble endelig fornøyd. FIkset issues med filters jeg hadde. Ligger litt bak skjema med tanke på UI er ikke i 100 men kjernefunksjonaliteten er ihvertfall på plass
 </details>
 <details open>
 <summary>Tirsdag <sub>14/04</sub></summary>
