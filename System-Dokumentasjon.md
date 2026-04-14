@@ -52,20 +52,30 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage en Lån
     <details>
         <summary>Views</summary>
         <ul>
+            <img width="660" height="992" alt="image" src="https://github.com/user-attachments/assets/6f49f2cb-f6ef-4c57-b838-656a437f505d" />
             <li>BooksOverview - view som henter ut metadata til Books og joiner på linke tabeller for å hente data som sjangre til en bok og forfatterne, den viser også ut tilgjengeligheten til boka ( hvor mange bøker som er available, unavailable, og overdue )  </li>
+            <img width="728" height="1043" alt="image" src="https://github.com/user-attachments/assets/66cdfca2-9739-4806-b79d-28e88eb36710" />
             <li>BorrowedBooksOverview - view som henter ut metadata til utlån på bøker og joiner seg med linke tabellene for å hente ut data som bok informasjonen, sjanger og forfattere og statusen på utlånet.</li>
+            <img width="685" height="306" alt="image" src="https://github.com/user-attachments/assets/c4427820-b91c-4f61-9c28-2559ac687c76" />
             <li>MyAccessRolesCheck - view som henter ut brukerns roller slik at vi kan bruke det til å sjekke hvilken permissions en bruker har. </li>
         </ul>
     </details>
     <details>
         <summary>Procedures</summary>
         <ul>
+            <img width="636" height="340" alt="image" src="https://github.com/user-attachments/assets/b49dd8c0-2754-4faa-9069-722e683b2a11" />
             <li>CancelAddingBook - dette er prosedyren som kjøres når en kansellerer eller fjerner en bok, dersom du oppretter en bok og trykker ut av den dialogen blir denne kjørt for og kansellere den/ fjerne den. Denne fjerner bare alle tilknyttningene den boka har og sletter den. </li>
+           <img width="739" height="854" alt="image" src="https://github.com/user-attachments/assets/e5faf87b-71ff-47a4-a608-3244707635ea" />
             <li>LoanBook - dette er prosedyren som kjøres når en tar uttak på en bok, den tar inn parameterene: Book_ID, Person_ID, Qty, FromDate, ToDate for å lagre ned når man lagrer den til og boka som blir tatt ut på hvilken person.</li>
+            <img width="541" height="541" alt="image" src="https://github.com/user-attachments/assets/252c40aa-7d05-4518-adf5-a387fbfc10c8" />
             <li>ReturnBook - dette er prosedyren som kjøres når en leverer en bok tilbake, den tar inn parameterene: Book_ID, Person_ID, Qty for å lagre ned returdato og oppdatere availableqty på selve boka siden den blir levert tilbake.</li>
+            <img width="582" height="430" alt="image" src="https://github.com/user-attachments/assets/f51f9665-e2ec-4b9a-a3d9-43413afebb05" />
             <li>AddAuthors - dette er prosedyren som kjøres når en knytter flere forfattere til en bok, den tar inn parameterene: Book_ID, Author_ID for å lagre ned hvilken forfattere som er knyttet til denne boka.</li>
+            <img width="501" height="419" alt="image" src="https://github.com/user-attachments/assets/938f3432-a268-45ff-9f7f-897d431b7576" />
             <li>AddGenres - dette er prosedyren som kjøres når en knytter flere sjangre til en bok, den tar inn parameterene: Book_ID, Genre_ID for å lagre ned hvilken sjangre som er knyttet til denne boka.</li>
+            <img width="2143" height="1010" alt="image" src="https://github.com/user-attachments/assets/026c3485-a3be-4217-85bd-39b1a547114b" />
             <li>NotifyOverdueBookLoans - dette er prosedyren som kjøres når du skal minne på alle bøker som er overdue på innleveringsdatoen, denne tar bare og samler alle som har overdue book loans og sender en melding/mail til de som har overdue book loans med informasjon om hviket bøker de har lånt og at de må vennligst levere dem inn raskest mulig.</li>
+            <img width="2143" height="886" alt="image" src="https://github.com/user-attachments/assets/3384767f-7cdc-4a61-886d-4fd2336365fa" />
             <li>BookDeliveryReminder - dette er en prosedyre som blir kjørt i en jobb som blir kjørt hver dag for å minne på at bøkene de har lånt når snart deres overdue date ( blir sendt når det er 2 dager igjen til den skal leveres tilbake ), denne tar bare og samler alle som snart har overdue book loans og sender en melding/mail til de og sendes med informasjon om hviket bøker de har lånt for å minne dem på det.</li>
         </ul>
     </details>
@@ -108,13 +118,13 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage en Lån
         Denne løsningen består av 3 skjermbilder; Library, Genres og Authors
     </p>
     <ul>
-        <!-- <img width="2557" height="1170" alt="image" src="https://github.com/user-attachments/assets/83f08dec-b66a-47c7-b862-d60b0debfbb7" /> -->
+        <img width="2548" height="1270" alt="image" src="https://github.com/user-attachments/assets/655c97f5-5c0e-46ab-ad79-af4dc8c829b9" />
         <li>Library (Books Overview Tab) - Denne tabben viser deg et rask overblikk over alle bøkene som ligger inne på dette biblioteket hvor du får muligheten til å søke på bøker og åpne mer detaljer om boka, for ansatte så gjør de uttak via dette bilde på bøkene. </li>
-        <!-- <img width="2546" height="1271" alt="image" src="https://github.com/user-attachments/assets/b7fc9a86-53ff-4fc0-b0a2-e8b8f2b4ab20" /> -->
+        <img width="2542" height="1272" alt="image" src="https://github.com/user-attachments/assets/93667cbe-1c51-4123-894f-920e197c4af4" />
         <li>Library (My Borrowed Books Tab) - Denne tabben viser oversikt over alle dine egne lånte bøker og historikk over bøker du har lånt, for ansatte så får de også mulighet til og levere inn bøker gjennom dette bildet som gjør det litt raskere for dem og holde styr på sine egne bøker de har lånt og kan leve inn kjapt.</li>
-        <!-- <img width="2542" height="1270" alt="image" src="https://github.com/user-attachments/assets/94dad0c1-57b5-4fb0-9f7f-556ba67fceb0" /> -->
+        <img width="2550" height="1272" alt="image" src="https://github.com/user-attachments/assets/d921349f-b79c-4e26-98db-a45c1062f7ac" />
         <li>Library (Borrowed Books Overview Tab) - Denne tabben viser oversikt over alle bøkene som er utlånt generelt hvor de får muligheten til å sende en purre melding på de som er overdue men også levere inn bøker som er utlånt, de får også en kort oversikt på toppen over alle bøkene som er tilgjengelige/ utlånt ut/ og de som er overdue. Denne tabben er det bare ansatte som har tilgang til som gjør slik at vanlige brukere ikke kan redigere på dem.</li>
-        <!-- <img width="2542" height="1270" alt="image" src="https://github.com/user-attachments/assets/94dad0c1-57b5-4fb0-9f7f-556ba67fceb0" /> -->
+        <img width="2541" height="1258" alt="image" src="https://github.com/user-attachments/assets/73f5cfdc-12a6-4613-bd01-ae8fc1119730" />
         <li>Library (Edit Books Tab) - Denne tabben viser deg oversikt over alle bøkene som ligger inne og gir deg muligheten til og redigere informasjonen til bøkene men også fjerne og legge til nye bøker. Denne tabben er det bare ansatte som har tilgang til som gjør slik at vanlige brukere ikke kan redigere på dem.</li>
         <img width="1269" height="1264" alt="image" src="https://github.com/user-attachments/assets/fec81a21-e0ae-4dcd-a7a0-c26841f6fa23" />
         <li>Authors - denne appen er en setup app som ligger i O365 Setup som vil da bare si en app for og se informasjon/ redigere/ legge til forfattere ( dette er noe som bare de me rollen Library Administrator skal kunne se/ redigere ). I denne appen ser du oversikt over hvilket forfattere som eksisterer.</li>
@@ -137,8 +147,8 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage en Lån
         Problemstillinger under utvikling
     </summary>
     <ol>
-        <!-- <li>Monthly Balance Overview Chart - Charten var litt av en challenge siden jeg ikke har vært borti det så mye, så og formattere datoer og verdiene som skulle bli sendt in var en ting jeg brukte en del tid på</li>
-        <li>Overview Layout - Dette var noe jeg slet litt med og endret et par ganger med tanke på hva som hadde blitt mest intuitivt for bruker så det ble et par endringer her og endring på formattering og hadde en del problemer med reaktivitet når det kom til charten siden den ikke ville endre seg basert på screen width, til slutt fikk jeg det til men det tok litt tid på og debugge dette og landet til slutt på en layout som jeg syntes var mest oversiktlig for bruker.  </li> -->
+        <li>Books Overview - Issues med cards og hvordan de skulle se ut siden det var veldig mye fram og tilbake på om jeg skulle bruke grid også ble det cards men så var det å få ting til å se bra ut så det gikk mye tid på det noe som jeg kunne unngått viss jeg hadde tenkt på det litt tidligere men er fornøyd med hvordan det endte opp </li>
+        <li>Edit Book - Issue med hvordan vi skulle opprette bøker og lagre ned cover til bøkene men endte opp med en litt forenklet versjon hvor selve tabellen til Books er en filtabell som lagrer ned coveret til boken så ordnet den biten seg brukte bare litt tid på å bestemme meg og kom noen problemer ved og laste inn bilde sikkelig men det løste seg til slutt!</li>
     </ol>
 </details>
 <details>
@@ -147,11 +157,10 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage en Lån
     </summary>
     <ul>
         <p>Her er tingene jeg hadde planlagt videre, men som jeg ikke fikk tid til:</p>
-        <!-- <li>Muligheten for og legge til flere kategorier på et budsjett ( per nå så er det bare mulig og legge til en kategori på et budsjett ) </li>
-        <li>Fjerning av transaksjoner ( dette er egentlig relativt lett men var usikker på om jeg ville la bruker få muligheten til og slette transaksjoner men heller få dem til og legge inn en linje som en korrigering av feil transaksjoner ) </li>
-        <li>Legging inn av transaksjoner bak i tid ( dette ville krevd omskriving i flere views og direkte i app og procedure og endring av flere tabeller men er en drit fin funksjon siden per nå så baserer den seg på Created feltet som er da transaksjonen blir lagt inn ( opprettet ) men vil da si at det ikke er mulighet for å legge inn en bak i tid eller fram i tid ) dette tenkte jeg egentlig på og endre siste dagen men dersom det ble for kort tid så legger jeg det heller til i lista som en ToDo </li>
-        <li>Mulighet til og legge inn flere Accounts typ Sparekonto, Brukskonto BSU konto. Det dette ville innebært er og lagd en ny tab for administrering av Kontoer ( dette er noe som tabellstrukturen min støtter men har ikke fått tid til og implementere )</li>
-        <li>Mulighet til og endre valuta og basert på valutaen skal exchangeraten endre prisen ( dette er noe datamodellen min støtter per nå men har ikke lagt mulighet for convertering men skal ikke være så altfor vanskelig og implementere ) </li> -->
+        <li>Ha litt mer fokus på layout og sette heights på de forskjellige plassene som viser cover til boka siden bildene flytter seg til skjermstørrelse så løsningen her er å sette max og min height men fikk ikke tid til dette så dette er noe som må bli lagt til i etterkant </li>
+        <li>Mulighet for å legge til ratings på bøker typ sånn terningkast og ha det som en visning på bøkene hadde vært veldig kult og fått til. </li> 
+        <li>Mulighet for å legge til flere cover/ bilder på boken som da vil bare si legge til en ny tabell og lagre ned bok_id og filene slik at vi kan legge til mer info bilder. </li> 
+        <li>Mulighet for å bulk levere inn bøker siden nå er det per bok </li> 
     </ul>
 </details>
 <details>
