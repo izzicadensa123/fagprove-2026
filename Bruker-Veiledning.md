@@ -5,78 +5,60 @@
     <summary>
         Hva er det?
     </summary>
-    <!-- <p>En app for og føre opp transaksjoner og sette opp budsjetter for og holde styr på din personlige kost.</p> -->
+    <p> en applikasjon der brukere kan registrere bøker og holde oversikt over utlån og innlevering.</p>
 </details>
 <details>
     <summary>
         Hva skjer i Books Overview tabben?
     </summary>
-    <!-- <p>Når du står i Overview tabben for du et raskt overblikk over personlig kost, du blir møtt av et kort som viser info om din konto ( i dette tilfellet så har alle brukere en brukskonto og default satt valutaen til nok som jeg skriver mer i system dokumnetasjon om hvorfor dette har seg ).  </p>
-    <p>I delen under som heter Total Income så er det en overview over totale inntekter du har tjent, totale kostnadder du har hatt og totalen som er inntekt minus ugifter som da blir det du har igjen etter utgiftene dine. </p>
-    <p> Under den infoen så er det en grid og en chart, i gridden viser den alle transaksjonene du har hatt den måneden ( filtrert på starten av måneden til slutten av måneden ) mens charten viser den samme informasjonen bare med tidslinje og kost. </p>
-    <img width="2547" height="1270" alt="image" src="https://github.com/user-attachments/assets/a00e9e8e-0c83-4ed8-8899-763da7085c6d" /> -->
+    <img width="2550" height="1268" alt="image" src="https://github.com/user-attachments/assets/ee398b5d-52bd-41ea-9ad9-ded9aa9c1a9e" />
+     <p>Når du står i Overview tabben for du et raskt overblikk over alle bøkene som er tilgjengelige for dette biblioteket, her får du muligheten for å filtrere på bøker. Viss du er en bruker så får du muligheten til å trykke på "View More" som åpner         en modal med litt bedre oversikt over boken du ville lese mer av </p>
+    <img width="2518" height="1249" alt="image" src="https://github.com/user-attachments/assets/07457626-2eb1-43b8-852d-38f7228e313f" />
+    <p>Dersom du er en ansatt får du muligheten til å kjøre uttak på bøker i dette bildet ved å trykke "Borrow" der du får en dialog med samme info som View More bare med muligheten for å velge hvor mye i uttak og fra og til dato på lånet</p>
+    <img width="2524" height="1260" alt="image" src="https://github.com/user-attachments/assets/954a609b-683f-4a7f-b78c-c9fb83c98b0e" />
 </details>
 </details>
 <details>
     <summary>
         Hvordan ser jeg overview av uttak av bøker?
     </summary>
-    <!-- <p>Denne informasjonen finner du i transactions tabben hvor du ser alle totale transaksjonene du har opprettet. Her kan du filtrere på kolonnene slik du vil ved og enten høyre klikke på det du vil filtrere på og trykke "Filter by Selection" eller ekskludere ved og velge "Filter By Excluding Selection". Det er også mulighet til og gruppere kolonnene ved og dra kolonnen opp til der det står "Drag a column here to group by".</p>
-    <img width="2542" height="1266" alt="image" src="https://github.com/user-attachments/assets/c8c99e50-c1c6-4ec1-bdfd-3c95db47a24a" /> -->
+    <img width="2539" height="1262" alt="image" src="https://github.com/user-attachments/assets/8b887511-1184-4f72-bf6c-9a1cc9ac5e08" />
+    <p>Denne informasjonen ligger i tabben som heter borrowed books overview som er restricted til de som har ansatt rollen, i denne tabben får du filtreringsmulighet over alle uttak som er tatt på bøker og en visning på når de er lånt/ innlevert. </p>
+    <img width="2533" height="1270" alt="image" src="https://github.com/user-attachments/assets/143484db-a0ca-4650-93b5-a3970c93763b" />
+    <p>I denne tabben får du muligheten til å levere tilbake bøker via knappen i Actions i gridden dersom den ikke er levert tilbake så popper det opp en confirmation modal om du vil levere den tilbake </p>
+    <img width="2542" height="1119" alt="image" src="https://github.com/user-attachments/assets/c8e70d4c-58ef-4085-8694-990a28e2f859" />
+    <p>Du får også muligheten til å sende purre melding til alle som har utlånte bøker som har gått over todaten som er satt, de med ansatt rollen får også mulighet til å endre todaten her dersom de vil forlenge datoen av lånet.</p>
+
 </details>
 <details>
     <summary>
         Hvordan opprette Bøker?
     </summary>
-    <!-- <p>Når du står i Transactions tabben så er det en knapp som heter "Create New Transaction"  </p>
-    <img width="2543" height="1266" alt="image" src="https://github.com/user-attachments/assets/50081f10-4a33-419e-9ca2-14dfacb4af6a" />
-    <p>Når du trykker den kommer det opp en dialog hvor det kommer en grid der du kan legge til informasjonen for og fylle ut transaksjonen, der det er gult er da det som må bli fyllt ut for og kunne opprette transaksjoner. Når du har lagt inn alle transaksjonene du vil legge til så trykker du "Add Transactions" så vil dette da lukke dialogen og opprette de transaksjonene som du har lagt inn i gridden der du får oversikt over alle transaksjonene. </p>
-    <img width="2106" height="1036" alt="image" src="https://github.com/user-attachments/assets/192bcb66-5f1d-4c6f-ae02-d4db8561ea44" /> -->
+    <img width="2548" height="1097" alt="image" src="https://github.com/user-attachments/assets/1ca69b3c-96a8-4894-97d1-d31d393bbea7" />
+    <p>Viss du drar bort på Edit Books tabben så ser du en oversikt over alle bøkene som ligger inne med et detalje vindu som viser bok detaljer og muligheten for å redigere bok detaljene dens </p>
+    <img width="2545" height="1279" alt="image" src="https://github.com/user-attachments/assets/a4f6fed1-fd06-4beb-bd45-34fb41bd0be4" />
+    <p>For å opprette nye bøker så er det en knapp som heter "Add New Book" som gir deg muligheten for å opprette/ legge til nye bøker med den relevante informasjonen så blir den lagret ned og opprettet. </p>
+    <img width="2552" height="794" alt="image" src="https://github.com/user-attachments/assets/177a9ee7-30d9-47b3-969c-a05bfde4c6ac" />
+    <p>For å fjerne bøker så er det en knapp i detalje vinduet som heter "Delete hvor du får opp en confirmation modal og når du trykker Ok så fjernes boken helt og fjerner dens tilknttninger, dersom boka har uttak på den så feiler den og ber deg levere inn de bøkene som et utlånt før du kan fjerne boka helt. </p>
 </details>
 <details>
     <summary>
         Hvordan ser jeg mine bok lån?
     </summary>
-    <!-- <p>Når du står i Budgets tabben får du en oversikt over alle budsjettene du har opprettet med et detalje vindu som viser informasjon om budsjettet du står på. </p>
-    <img width="2544" height="1269" alt="image" src="https://github.com/user-attachments/assets/dda2707a-dbe4-4e84-9a2d-7ea9b8f4ce9d" />
-    <p>Når du står i Budgets tabben kan du også lukke detalje visningen og få en full oversikt over alle budsjettene dine ved og trykke "Details" knappen på venstre siden av detalje visningen der du da ser full informasjon av budsjett som f.eks hvor mye du har brukt og hvor mye du har igjen av budsjettet ( står i minus viss du har overskredet budsjettet ditt ). .</p>
-    <img width="2551" height="1258" alt="image" src="https://github.com/user-attachments/assets/58e20ebb-3bab-4094-8689-6d3eac9d484a" /> -->
-</details>
-<details>
-    <summary>
-        Hvordan registrerer jeg uttak og innleveringer?
-    </summary>
-    <!-- <p>Når du står i Budgets tabben så er det en knapp som heter "Create New Budget". </p>
-    <img width="2551" height="1272" alt="image" src="https://github.com/user-attachments/assets/5abff181-2422-4dbb-83a3-161dec54cae8" />
-    <p>Når du trykker på den så kommer det en dialog hvor det kommer input felter som du kan fylle ut, de feltene som har en stjerne på vil da si at de er påkrevd at du fyller ut. </p>
-    <img width="2108" height="855" alt="image" src="https://github.com/user-attachments/assets/b66e6497-2ce2-4259-b8aa-4fa5bf571349" />
-    <p>Dersom du ikke fyller disse ut så vil formen validere og vise deg de feltene du bør fylle ut for og kunne opprette budsjettet. Når du har fyllt ut nødvendig informasjon så kan du trykke på "Create Budget" som da vil opprette budsjettet du har fyllt ut informasjonen til og legge den til i hoved gridden.</p>
-    <img width="2067" height="654" alt="image" src="https://github.com/user-attachments/assets/23093aa5-7132-44c1-93c9-fbd64c7270fa" /> -->
-</details>
-<details>
-    <summary>
-        Hvordan redigerer/ fjerner/ legger til bøker?
-    </summary>
-    <!-- <p>Detalje visningen i Budgets tabben er som sakt for mer informasjon angående budsjette men inneholder også en grid som viser oversikt over transaksjonene mellom den To and From daten du har satt og viss du har lagt til en kategori på budsjette vil dette også filtrere ned transaksjonene på transaction categories som tilhører den budsjett kategorien, men det er også mulighet til og filtrere og gruppere visningen på transaksjonene på samme måte som jeg forklarte på Transaksjons tabben. I denne visningen er det også mulighet for og endre på tittel, description from og to date dersom du vil endre det til noe annet eller legge til noe men dersom du gjør en endring må du trykke på save for og lagre disse endingene eller cancel for og avbryte endringen.</p>
-    <img width="2180" height="1210" alt="image" src="https://github.com/user-attachments/assets/99fef827-98e9-4e93-a840-4ff81ba32d13" /> -->
+    <img width="2542" height="967" alt="image" src="https://github.com/user-attachments/assets/ae14f56b-82ad-45c2-8f04-2117096a520c" />
+    <p>Viss du hopper inn i tabben som heter "My Borrowed Books" så får du opp en grid med dine lånte bøker altså de som er utlånt og de som er utgått som må leveres inn asap også har du filtrerings mulighet så viss du vil se de bøkene du har lånt før         så er det full mulighet for det ved å huke av "Include Delivered Books" </p>
+    <img width="2542" height="814" alt="image" src="https://github.com/user-attachments/assets/75139150-02bb-4871-9149-46b90ac09e41" />
+    <p>Dersom du har ansatt rollen så får du også mulighet til å levere dine egne bøker som du har utlånt direkte i denne visningen dette er noe som vanlige brukere ikke har tilgang til da</p>
 </details>
 <details>
     <summary>
         Hvordan får vi sett hvilket sjangre og forfattere som er tilgjengelige?
     </summary>
-    <!-- <p>I Omega 365 løsningen har vi en app som heter O365 Setup og hvordan du navigerer deg her til er ved og trykke på mega menyen og trykke på tannhjulet. </p>
-    <img width="1194" height="763" alt="image" src="https://github.com/user-attachments/assets/39649151-d47a-4fa1-a727-3911873125c4" />
-    <img width="1027" height="779" alt="image" src="https://github.com/user-attachments/assets/472f03af-9999-47da-a245-cfedb49fcf71" />
-    <p>Her søker du på Utgifts Tracker og da får du opp det vi kaller for setup apper der man kan sette opp ting som er relatert og her har jeg lagt til mulighet til å se hvilken transaksjons kategorier som tilhører den budsjett kategorien, i samme sleng kan du se en oversikt over alle transaksjonene som eksisterer. For de som har developer rollen kan da legge til transaksjons kategorier på budsjett kategorien den tilhører men dette har ikke en vanlig bruker tilgang til ( de som bare har Utgifts Tracker User rollen ). </p>
-    <img width="2520" height="1270" alt="image" src="https://github.com/user-attachments/assets/c9f74732-415b-4391-8bdf-8433a3306f3b" /> -->
+    <img width="2554" height="1283" alt="image" src="https://github.com/user-attachments/assets/e54ab2a8-b7d3-4a67-a1f9-585229fe7e8f" />
+    <p>I Omega 365 løsningen har vi en app som heter O365 Setup og hvordan du navigerer deg her til er ved og trykke på mega menyen og trykke på tannhjulet. Når du åpner dette bildet så ser du en menu group som heter Library og under denne så ligger oversikten over Authors og Genres</p>
+    <img width="1423" height="1263" alt="image" src="https://github.com/user-attachments/assets/3ac3be3e-cbe0-4c2b-93e9-d389799e94d9" />
+    <p>Her er oversikten over Authors under Authors i menugroupen, her får du full oversikt over alle forfatterne og mulighet for å endre navn/ fjerne og legge til nye dersom dere finner ut at det mangler noen. Det er bare de som har ansatt rollen som         har tilgang til denne dersom det er de som administrerer nye bøker osv </p>
+    <img width="970" height="1266" alt="image" src="https://github.com/user-attachments/assets/758e265c-0687-4873-bf97-a564237c8f7c" />
+    <p>Det er samme prinsipp i Genres appen som det er i Authors, full oversikt som er redigerbar for ansatte bare.</p>
 </details>
-<details>
-    <summary>
-        Hvordan purrer jeg på innleveringer av bøker?
-    </summary>
-    <!-- <p>I Omega 365 løsningen har vi en app som heter O365 Setup og hvordan du navigerer deg her til er ved og trykke på mega menyen og trykke på tannhjulet. </p>
-    <img width="1194" height="763" alt="image" src="https://github.com/user-attachments/assets/39649151-d47a-4fa1-a727-3911873125c4" />
-    <img width="1027" height="779" alt="image" src="https://github.com/user-attachments/assets/472f03af-9999-47da-a245-cfedb49fcf71" />
-    <p>Her søker du på Utgifts Tracker og da får du opp det vi kaller for setup apper der man kan sette opp ting som er relatert og her har jeg lagt til mulighet til å se hvilken transaksjons kategorier som tilhører den budsjett kategorien, i samme sleng kan du se en oversikt over alle transaksjonene som eksisterer. For de som har developer rollen kan da legge til transaksjons kategorier på budsjett kategorien den tilhører men dette har ikke en vanlig bruker tilgang til ( de som bare har Utgifts Tracker User rollen ). </p>
-    <img width="2520" height="1270" alt="image" src="https://github.com/user-attachments/assets/c9f74732-415b-4391-8bdf-8433a3306f3b" /> -->
-</details>
+
