@@ -159,10 +159,11 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage en Lån
     </summary>
     <ul>
         <p>Her er tingene jeg hadde planlagt videre, men som jeg ikke fikk tid til:</p>
-        <li>Ha litt mer fokus på layout og sette heights på de forskjellige plassene som viser cover til boka siden bildene flytter seg til skjermstørrelse så løsningen her er å sette max og min height men fikk ikke tid til dette så dette er noe som må bli lagt til i etterkant </li>
+        <li>Ha litt mer fokus på layout og sette heights på de forskjellige plassene som viser cover til boka siden bildene flytter seg til skjermstørrelse så løsningen her er å sette max og min height men fikk ikke tid til dette så dette er noe som              må bli lagt til i etterkant </li>
         <li>Mulighet for å legge til ratings på bøker typ sånn terningkast og ha det som en visning på bøkene hadde vært veldig kult og fått til. </li> 
         <li>Mulighet for å legge til flere cover/ bilder på boken som da vil bare si legge til en ny tabell og lagre ned bok_id og filene slik at vi kan legge til mer info bilder. </li> 
         <li>Mulighet for å bulk levere inn bøker siden nå er det per bok </li> 
+        <li>Dersom jeg per nå har bare gitt muligheten for å registrere uttak og innleveringer av bøker til ansatte rollen/administratorer så er det kun de som får mulighet til å gjøre dette men det hadde vært kult å fått in self checkout og check inn av bøker som ikke er vanskelig og få til dersom du bare gir dem rolle tilgang og legger til en ekstra sjekk i prosedyren så er det oppe å går.   </li> 
     </ul>
 </details>
 <details>
