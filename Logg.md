@@ -20,7 +20,7 @@ Jobbet videre med appens kjernefunksjonalitet og endret på et par layout saker,
 </details>
 <details open>
 <summary>Tirsdag <sub>14/04</sub></summary>
-
+Skrevet ferdig all dokumentasjon som skulle inn og fikset de bugsene som oppsto under test rapporten.
 </details>
 <details open>
 <summary>Onsdag <sub>15/05</sub></summary>
