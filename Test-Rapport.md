@@ -59,6 +59,13 @@ Utføre grundig test av alle funksjonene i appene og beskrive hvordan de burde o
         <td></td>
         <td>✅</td>
     </tr>
+    <tr>
+        <td>Jobb Notifikasjon </td>
+        <td>Jobb Notifikasjon </td>
+        <td>Jobb Notifikasjon</td>
+        <!-- <td><img width="2532" height="1236" alt="image" src="https://github.com/user-attachments/assets/829d2574-edd0-4ac5-bcef-e83af4fc1a3d" /></td> -->
+        <td></td>
+        <td>✅</td>
     </tr>
     <tr>
         <td>Legge til Sjangre og forfattere</td>
